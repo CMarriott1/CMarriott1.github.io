@@ -481,6 +481,7 @@ body:not(.user-is-tabbing) a:focus {
 .work__code {
     display: block;
     height: 3rem;
+	margin-left: var(--gutter-small);
     transition: all .3s;
 }
 
@@ -554,13 +555,14 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(min-width: 901px) {
     .about__text {
-        flex: 0 0 35%;
+        flex: 0 0 65%;
     }
     
     .about__photo-container {
         flex: 1;
         margin: 0 var(--gutter-huge) 0 0;
     }
+	
 }
 
 /* --------------------------------------- */
