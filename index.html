@@ -1,69 +1,251 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<title>
-		Ciaran Marriott, UK Game Developer
-	</title>
-	<link rel="stylesheet" href="index.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Ciaran Marriott | UK Game Developer
+  </title>
+
+  <meta name="description" content="UK Game Developer">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Ciaran, C++, C#, Python, Unity, Unreal" />
+  <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
-	<!--header-->
-	
-	<div class = "header__section">
-		<h1 class = "name-header">
-			Ciaran Marriott
-		</h1>
-		<p>UK Game Developer</p>
-	</div class = "header__section">
-	
-	<!--projects-->
-	
-	<div class = "projects-list">
-		<h2 class = "projects-header">Projects</h2>
-			<h3>Soulbound</h3>
-				<p></p>
-				<ul>
-					<li>Python</li>
-					<li>PyGame</li>
-					<li></li>
-					<li></li>
-				</ul>
-			<h3>Swinging platform platformer</h3>
-				<p></p>
-				<ul>
-					<li>Unreal</li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-			<h3>The Sunken Pyramid</h3>
-				<p></p>
-				<ul>
-					<li>C++</li>
-					<li>SFML</li>
-					<li>SQL</li>
-					<li></li>
-				</ul>
-			<h3>The Legend of the Phoenix Knight</h3>
-				<p></p>
-				<ul>
-					<li>Unity</li>
-					<li>C#</li>
-					<li></li>
-					<li></li>
-				</ul>
-	</div>
-			
-	<!--about-->
-	
-	<h2>About me</h2>
-	<p></p>
-	
-	<!--contact-->
-	
-	<h2>Get In Touch</h2>
-	<p></p>
-	
-	<!--links-->
-	
-	
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Ciaran Marriott</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>UK Game Developer</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>The Legend of Phoenix Knight</h3>
+              <p>
+                A rouge-like group project. I primarily worked on procedural generation 
+              </p>
+              <ul class="work__list">
+                <li>C#</li>
+                <li>Unity</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>The Sunken Pyramid</h3>
+              <p>
+                A complete rouge-like written in C++.
+              </p>
+              <ul class="work__list">
+                <li>C++</li>
+                <li>SFML</li>
+                <li>SQL</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Swinging Platform Platformer</h3>
+              <p>
+                A simple, short platformer that explores the usage of swinging platforms.
+              </p>
+              <ul class="work__list">
+                <li>Unreal</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+		  
+		  <div class="work__box">
+            <div class="work__text">
+              <h3>Soulbound</h3>
+              <p>
+                A rough rouge-like written in Python.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Pygame</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+		  
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+			  I'm a second year student at Sheffield Hallam University on the Computer Science for Games course.
+              I've been in love with computer science for nine years ever since I first joined a coding club at school.
+			  Same goes with games for as long as I remember.
+			  I'm looking for placement opportunities where I can learn new skills and improve my communicative skills.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+		  If my portfolio has grabbed your attention and you're interested in contacting me,
+		  send me an email. Feel free to send me any questions or advice you have for me.	 
+        </p>
+		<p>
+		  marriott2004@me.com
+		</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/CMarriott1" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/ciaran-marriott-7a2778292/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
 </body>
+
+</html>
