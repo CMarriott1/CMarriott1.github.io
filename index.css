@@ -489,6 +489,11 @@ body:not(.user-is-tabbing) a:focus {
     transform: scale(1.2);
 }
 
+.work__image {
+	height: auto;
+	max-width: 100%;
+	aspect-ratio: 16/9;
+}
 .work__image-box {
     margin-bottom: var(--gutter-normal);
 }
