@@ -1,244 +1,68 @@
-<!-- 
-  Hello 😊.
-
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
-
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
-
-  <!-- Put your site title here -->
-  <title>
-    Cherry Marriott | UK Game Developer
-  </title>
-
-  <meta name="description" content="UK Game Developer">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Cherry, C++, C#, Python, Unity, Unreal, PS5" />
-  <link rel="stylesheet" href="index.css" />
+	<title>
+		Cherry Marriott | UK Game Developer
+	</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="icon" type="image/png" href="./images/favicon.png">
 </head>
 
 <body>
-
-  <!-- ***** Header ***** -->
-
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Cherry Marriott</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>UK Game Developer</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
-      </div>
-    </div>
-  </header>
-
-  <main role="main">
-
-    <!-- ***** Work ***** -->
-
-    <section class="work" id="work">
-      <div class="row">
-        <h2>My Work</h2>
-        <div class="work__boxes">
-
-          <!-- Each div with the work__box class is a project. -->
-		  <div class="work__box">
-            <div class="work__text">
-              <h3>Life on Mars</h3>
-              <p>
-                Third university year group project made for PS5s. Gameplay revolves around completing chores in the Mars base. I primarily worked on the frameworks surrounding these chores as well as several different parts of graphics including lighting, UI and post-FX.
-              </p>
-              <ul class="work__list">
-                <li>PS5</li>
-                <li>C++</li>
-              </ul>
-			  
-            </div>
-            <div class="work__image-box">
-			  <img src="./images/wip.png" class="work__image" alt="Project 1">
+	<div id="background">
+		<div id="header">
+			<nav id="nav">
+				<ul class="links">
+					<li class="active">
+						<a href="index.html">
+							Profile
+						</a>
+					</li>
+					<li>
+						<a href="portfolio.html">
+							Portfolio
+						</a>
+					</li>
+				</ul>
+				<ul class="icons">
+					<li><p style="color:grey;margin:10px">Website created by Cherry</p></li>
+					<li>
+						<a href="https://github.com/CMarriott1">
+							<img src="images/github.svg" alt="Github" style="width:40px;height:40px">
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/cherry-marriott/">
+							<img src="images/linkedin.svg" alt="Linkedin" style="width:40px;height:40px">
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div id="main">
+			<h1 class="title">Cherry Marriott</h1>
+			<p>I'm a fourth year student at Sheffield Hallam University on the Computer Science for Games course. I've been in love with computer science ever since I first joined a coding club during primary school. Same goes with games for as long as I remember. Some day I'd love to use the skills I've developed to make games that positively impact many peoples' lives I'm looking for graduate jobs where I can learn new skills and contribute to a team.</p>
+			
+			<h2>Skills</h2>
+			<p><strong>Languages: </strong>C++, C#, Python, SQL, HTML, CSS, Assembly<br>
+			<strong>Game Engines: </strong>Unity, Unreal Engine 5<br>
+			<strong>Collaborative Software: </strong>GitHub, Notion, Flack, Trello, Teams, Zoom<br>
+			<strong>Soft Skills: </strong>Problem solving, Willingness to learn, Organisation, Teamwork<br>
+			<strong>Other: </strong>PS5, Visual Studio, Fusion 360, MySQL, SFML</p>
+			
+			<h2>Education</h2>
+			<p>Sheffield Hallam Universe, MComp (Hons) Computer Science for Games<br>
+			September 2022 - May 2026<br><br>
+			Tapton School, A-levels<br>
+			September 2020 - June 2022</p>
+			
+			<h1>Contact Information</h1>
+			<p>If my portfolio has grabbed your attention and you're interested in contacting me, feel free to send me an email. My socials are also in the top right.</p>
+			<p><strong>Email Address: </strong>marriott2004@me.com<br>
+			<strong>Phone Number: </strong> 07928969410</p>
+			
+			<div class="center">
+				<a class="button" href="files/cv.pdf">Download CV</a>
 			</div>
-          </div>
-		  
-		  <div class="work__box">
-            <div class="work__text">
-              <h3>After Dark</h3>
-              <p>
-                Second university year group project. Gameplay revolves around a loop of collecting resources, making tools, akin to Minecraft. I primarily worked on a fully fledged inventory + hotbar system, combat, tool functionality and resource spawning functionality.
-              </p>
-              <ul class="work__list">
-                <li>Unreal</li>
-              </ul>
-
-              <div class="work__links">
-				<a href="./files/TETRIS.zip" target="_blank" class="link__text">
-                  Download
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-			  <img src="./images/wip.png" class="work__image" alt="Project 1">
-			</div>
-          </div>
-		  
-		  <div class="work__box">
-            <div class="work__text">
-              <h3>TETRIS</h3>
-              <p>
-                A TETRIS clone. Includes all tetris functionality rendered entirely using DirectX even demonstrating use of 3D in the main menu. 
-              </p>
-              <ul class="work__list">
-                <li>C++</li>
-                <li>DirectX</li>
-              </ul>
-
-              <div class="work__links">
-				<a href="./files/TETRIS.zip" target="_blank" class="link__text">
-                  Download
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-			  <img src="./images/tetris.png" class="work__image" alt="Project 1">
-			</div>
-          </div>
-		  
-          <div class="work__box">
-            <div class="work__text">
-              <h3>The Legend of Phoenix Knight</h3>
-              <p>
-                A rouge-like group project. I primarily worked on procedural generation, how rooms/objects were placed in a 3D space, and tools to assist with designing each type of room. 
-              </p>
-              <ul class="work__list">
-                <li>C#</li>
-                <li>Unity</li>
-              </ul>
-
-              <div class="work__links">
-				<a href="./files/TheLegendOfPhoenixKnight.zip" target="_blank" class="link__text">
-                  Download
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <iframe width="1920" height="1080" src="https://www.youtube.com/embed/wr7-T_B9Lnc?si=-Zq7hTOCqsZyzvIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class = "work__image"></iframe>
-			</div>
-          </div>
-		  
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-			  I'm a third year student at Sheffield Hallam University on the Computer Science for Games course.
-              I've been in love with computer science ever since I first joined a coding club during primary school.
-			  Same goes with games for as long as I remember. Some day I'd love to use the skills I've developed to make games that positively impact many peoples' lives
-			  I'm looking for placement opportunities where I can learn new skills and contribute to a team.
-            </p>
-            <!-- Provide a link to your CV -->
-            <a href="./files/cv.pdf" class="btn">My CV</a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/prophoto.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-		  If my portfolio has grabbed your attention and you're interested in contacting me,
-		  send me an email. Feel free to send me any questions or advice you have for me.	 
-        </p>
-		<p>
-		  marriott2004@me.com
-		</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://github.com/CMarriott1" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://www.linkedin.com/in/ciaran-marriott-7a2778292/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-      <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
-      </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
-    </div>
-  </footer>
-
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
+		</div>
+	</div>
 </body>
-
-</html>
